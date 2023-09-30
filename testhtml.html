@@ -6,33 +6,108 @@
         دورة html
     </title>
 
-<body dir="rt;">
+<body dir="rtl">
     <h1>دورة html</h1><!--title-->
+    <style>
+        table,th,td {
+            border: 1px solid black;
+        }
+    </style>
+
+    <img src="174854.webp" height="150" width="300" alt="html logo">
     <h2>وصف الدورة</h2><!--sub title-->
     <p>
-        <b>HTML</b>   <br><hr>
-        
+        <b>HTML</b> <br>
+        <hr>
+
         <sub></sub>
 
-       <b>1 <sup>nd</sup></b>
-       
-    
-        
-<h1>اهداف هذه الدورة</h1>
-<ol type="1">
-    <li>التعرف على مفهوم HTML</li>
-    <li>تعلم كل tag</li2>
-    <li>طرق اضافة النصوص,الفيديوهات,وغيرها</li>
-</ol>
-<h2>متطلبات هذه الدورة</h2>
-<ul >
-    <li>متصفح سفاري , قوقل كروم</li>
-    <li>محرر نصوص</li>
-</ul>
-<p> قم بالضغط 
-    <a href="https://www.google.com/">هنا</a>
-</p>
+        <b>1 <sup>nd</sup></b>
 
+
+
+    <h1>اهداف هذه الدورة</h1>
+    <ol type="1">
+        <li>التعرف على مفهوم HTML</li>
+        <li>تعلم كل tag</li2>
+        <li>طرق اضافة النصوص,الفيديوهات,وغيرها</li>
+    </ol>
+    <h2>متطلبات هذه الدورة</h2>
+    <ul>
+        <li>متصفح سفاري , قوقل كروم</li>
+        <li>محرر نصوص</li>
+    </ul>
+    <p> قم بالضغط
+        <a href="https://www.google.com/">هنا</a>
+    </p>
+    <video width="700" height="500" controls>
+        <source src="https://tekeye.uk/html/images/Joren_Falls_Izu_Jap.mp4">
+        عذرا لا يمكن عرض هذا الفيديو
+    </video>
+    <audio controls>
+        <source src="mixkit-retro-game-notification-212.wav">
+    </audio>
+
+    <table>
+        <caption>جدول اماكن المحاضرات</caption>
+        <tr> 
+            <th>المكان</th>
+            <th>اليوم</th> 
+         </tr>
+
+         <tr> 
+            <td>الاحد و الاثنين</td>
+            <td>CLASS A</td>
+</tr>
+
+        <tr> 
+            <td>الثلاثاء و الاربعاء</td>
+            <td>CLASS B</td>
+
+        </tr>
+        <tr>
+            <td colspan="2">الخميس  
+        عن بعد</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>نموذج الانضمام للدورة</h2>
+    <form>
+        <label for="name">اسم المستخدم</label>
+        <input type="text" id="name">
+        <p>الجنس</p>
+        <label for="male">ذكر</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">انثى</label>
+        <input type="radio" id="female" name="gender">
+        <p>من اين سمعت عن html</p>
+        <input type="checkbox" id="friend" name="friend">
+        <label for="friend">صديق</label>
+        <input type="checkbox" id="books" name="books">
+        <label for="books">الكتب</label>
+        <input type="checkbox" id="social media" name="social media">
+        <label for="social media">تواصل اجتماعي</label>
+        <br>
+        <br>
+
+
+        <label for="city">اختر مدينتك</label>
+        <select form="city" name="city">
+           
+            
+            <option value="riyadh">الرياض</option>
+            <option value="medina">المدينة</option>
+            <option value="jeddah">جدة</option>
+          
+
+
+        </select><br><br>
+        <input type="submit" value="انضمام">
+        
+
+        
+
+    </form>
     </p>
 
 </body>
